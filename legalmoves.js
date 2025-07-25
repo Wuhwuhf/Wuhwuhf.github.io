@@ -1,6 +1,8 @@
 // NOTE: this example uses the chess.js library:
 // https://github.com/jhlywa/chess.js
 
+npm install chess.js
+
 var board = null
 var game = new Chess()
 var $status = $('#status')
