@@ -4,4 +4,5 @@ var config = {
 }
 
 
-var board1 = ChessBoard('board1', config);
+var board1 = Chessboard('board1', 'start')
+
