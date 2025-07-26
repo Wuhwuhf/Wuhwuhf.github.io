@@ -23,6 +23,10 @@
     Very Cool Button that send you to the send page!
   </button>
   </a>
+  <button onclick="ButtonScript()"style="background-color: #444444; color:#FFFFFF; border-radius:5px">
+    Very Cool Button!
+  </button>
+  <p id="pizzahut-tacobell"> Im at the Pizza Hut</p>
   <br>
   <br>
   <br>
@@ -33,6 +37,14 @@
   <a href="page9.html" target=_self title="Next Page">
     ->
   </a>
+
+
+  <script>
+    function ButtonScript()
+    {
+      document.getElementById("pizzahut-tacobell").innerHTML = "Im at the Taco Bell";
+    }
+  </script>
 </body>
 
 </html>
